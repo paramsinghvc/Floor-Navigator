@@ -32,6 +32,6 @@ self.addEventListener('notificationclick', function (event) {
     //     }
     // });
     event.waitUntil(
-        clients.openWindow('http://172.29.131.140:8083/#page=direction&from=areas,lift1&to=workStations,180')
+        clients.openWindow('https://172.29.131.140/#page=direction&from=areas,lift1&to=workStations,180')
     );
 });
